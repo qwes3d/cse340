@@ -14,6 +14,21 @@
             "database": "week2_ahin",
             "username": "week2_ahin_user",
             "name": "postgresql://week2_ahin_user:oPSjXecgqHlSyqefoZFTv4qpIodG0lwg@dpg-d1ldb8vdiees73fi3v80-a.oregon-postgres.render.com/week2_ahin"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "previewLimit": 50,
+            "server": "dpg-d1mn4midbo4c73c514d0-a.oregon-postgres.render.com",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "week2",
+            "username": "week2_qmhb_user",
+            "database": "week2_qmhb"
         }
     ]
 }
